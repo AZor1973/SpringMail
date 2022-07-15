@@ -12,7 +12,6 @@ import java.time.format.DateTimeFormatter;
 @Service
 @RequiredArgsConstructor
 public class MailService {
-
     private final JavaMailSender javaMailSender;
 
     @PostConstruct
